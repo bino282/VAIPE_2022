@@ -1,0 +1,10 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: /datahdd/nhanv/git/yolor/datasets/VAIPE_yolo/images/train # train images
+val:  /datahdd/nhanv/git/yolor/datasets/VAIPE_yolo/images/val # val images
+test:  /datahdd/nhanv/git/yolor/datasets/VAIPE_yolo/images/val # test images (optional)
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# number of classes
+nc: 1
+# class names
+names: ['pill']

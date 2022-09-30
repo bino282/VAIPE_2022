@@ -1,0 +1,1 @@
+ROOT = '/app/' # '/datahdd/nhanv/git/VAIPE_AI'
